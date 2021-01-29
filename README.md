@@ -6,7 +6,8 @@ This repo provides the code for our CVPR paper "What does Plate Glass Reveal abo
 
 
 
-## Citation
+## 
+
 If you find our code is useful, please cite our paper. If you have any problem of implementation or running the code, please contact us: csqianzheng@gmail.com
 ```
 @inproceedings{zheng2020does,
