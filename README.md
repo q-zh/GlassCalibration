@@ -3,7 +3,7 @@ This repo provides the code for our CVPR paper "What does Plate Glass Reveal abo
 \[[video](https://1drv.ms/v/s!AqqMkGs8p4aNgi-Is7Ah2ZgHrnfF?e=JezfFD)\]
 
 
-
+The code is modified based on that in https://github.com/csqiangwen/Single-Image-Reflection-Removal-Beyond-Linearity with a similar environment setup. 
 
 
 ## 
