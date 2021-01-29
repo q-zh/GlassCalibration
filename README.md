@@ -5,6 +5,7 @@ This repo provides the code for our CVPR paper "What does Plate Glass Reveal abo
 
 The code is modified based on that in https://github.com/csqiangwen/Single-Image-Reflection-Removal-Beyond-Linearity with a similar environment setup. 
 
+Please find the pre-trained model in https://pan.baidu.com/s/17OeeQTfhZUR4zGjG6eNDgw  code: chjq
 
 ## 
 
