@@ -8,6 +8,9 @@ The code is modified based on that in https://github.com/csqiangwen/Single-Image
 
 Please find the pre-trained model in https://pan.baidu.com/s/17OeeQTfhZUR4zGjG6eNDgw  code: chjq
 
+Please find the WILD testing data here https://pan.baidu.com/s/1aKAPPruK8chxKR7FmLRTIA  code ：cvpr  
+The numbers in the ground truth file represents the focal length (mm) and orientation of glass.
+
 ## 
 
 If you find our code is useful, please cite our paper. If you have any problem of implementation or running the code, please contact us: csqianzheng@gmail.com
