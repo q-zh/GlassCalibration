@@ -9,7 +9,7 @@ The code is modified based on that in https://github.com/csqiangwen/Single-Image
 Please find the pre-trained model in https://pan.baidu.com/s/17OeeQTfhZUR4zGjG6eNDgw  code: chjq
 
 Please find the WILD testing data here https://pan.baidu.com/s/1aKAPPruK8chxKR7FmLRTIA  code ：cvpr  
-The numbers in the ground truth file represents the focal length (mm) and orientation of glass.
+The numbers in the ground truth file represent the focal length (mm) and orientation of glass.
 
 ## 
 
