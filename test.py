@@ -1,6 +1,6 @@
 import os
 from options.test_options import TestOptions
-from data.custom_dataset_data_loader import CreateDataLoader
+from data.custom_dataset_data_loader import CreateDataLoaderTest
 from model.reflection_removal import ReflectionRemovalModel
 from util import util
 import numpy as np
@@ -12,7 +12,7 @@ opt.batchSize = 1  # test code only supports batchSize = 1
 opt.serial_batches = True  # no shuffle
 opt.no_flip = True  # no flip
 
-data_loader = CreateDataLoader(opt)
+data_loader = CreateDataLoaderTest(opt)
 dataset = data_loader.load_data_test()
 model = ReflectionRemovalModel()
 model.initialize(opt)
