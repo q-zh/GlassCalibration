@@ -14,7 +14,9 @@ Please find the WILD testing data in https://pan.baidu.com/s/1qp36IdUeM8K17-Wa9p
 The numbers in the ground truth file represent the focal length (mm) and orientation of glass.
 
 ## 
+Once got the ouput of a 3-dimensional vector (x,y,z), the FoV can be calculated by atan(0.5 / z).
 
+##
 If you find our code is useful, please cite our paper. If you have any problem of implementation or running the code, please contact us: csqianzheng@gmail.com
 ```
 @inproceedings{zheng2020does,
