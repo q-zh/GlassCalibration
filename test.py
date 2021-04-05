@@ -29,7 +29,7 @@ for i, data in enumerate(dataset):
     short_path = ntpath.basename(img_path[0])
     name = os.path.splitext(short_path)[0]
     print('%04d: process image... %s' % (i, img_path))
-
+    print(model.get_current_norm())
     for label, image_numpy in model.get_current_visuals_test().items():
         image_name = '%s_%s.png' % (name, label)
         save_path = os.path.join(img_dir, image_name)
