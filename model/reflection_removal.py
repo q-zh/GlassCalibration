@@ -22,7 +22,8 @@ class ReflectionRemovalModel(BaseModel):
         self.get_gradient = networks.ImageGradient(self.gpu_ids)
         self.weight = torch.tensor([0.6, 0.2, 0.2]).cuda(self.gpu_ids[0])*3
         self.fake_rate = 0.2
-
+        self.opt = opt
+        
         if len(self.gpu_ids) > 0:
             self.get_gradient.cuda(self.gpu_ids[0])
 
@@ -97,7 +98,7 @@ class ReflectionRemovalModel(BaseModel):
 
     # get image paths
     def get_image_paths(self):
-        return self.image_paths
+        return self.opt.dataroot 
 
 
     def compute_exclusion_loss(self, img1,img2,level=1):
