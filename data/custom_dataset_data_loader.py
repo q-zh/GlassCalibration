@@ -45,6 +45,14 @@ def CreateDataset(opt):
     dataset.initialize(opt)
     return dataset
 
+def CreateDatasetTest(opt):
+    dataset = None
+    dataset = RemovalDatasetTest()
+    print("dataset [%s] was created" % (dataset.name()))
+    dataset.initialize(opt)
+    return dataset
+
+
 def CreateDataLoader(opt):
     data_loader = CustomDatasetDataLoader()
     print(data_loader.name())
