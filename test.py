@@ -13,7 +13,7 @@ opt.serial_batches = True  # no shuffle
 opt.no_flip = True  # no flip
 
 data_loader = CreateDataLoader(opt)
-dataset = data_loader.load_data()
+dataset = data_loader.load_data_test()
 model = ReflectionRemovalModel()
 model.initialize(opt)
 # test
