@@ -237,7 +237,8 @@ class ReflectionRemovalModel(BaseModel):
             ('real_reflection', real_reflection), ('synthetic_C', synthetic_C), ('fake_W', fake_W), ('real_W', real_W)])
                                 # 
         return ret_visuals
-
+    def get_current_norm(self):
+        return self.fake_norm
     def get_current_visuals_test(self):
         fake_transmission = util.tensor2im(self.fake_transmission)
 #        fake_reflection = util.tensor2im(self.fake_reflection)
