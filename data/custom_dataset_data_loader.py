@@ -1,6 +1,6 @@
 import torch.utils.data
 from data.removal_dataset import RemovalDataset
-
+from data.removal_dataset import RemovalDatasetTest
 
 class BaseDataLoader():
     def __init__(self):
